@@ -8,8 +8,8 @@ const Directory = ({categories})=>{
                 categories.map((category) => {
                 return (
                     <CategoryItem
-                    key={category.id}
-                    category={category}
+                        key={category.id}
+                        category={category}
                     />
                 )
                 })
